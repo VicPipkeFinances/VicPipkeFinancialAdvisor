@@ -1990,3 +1990,20 @@ section {
     border-radius: 8px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
+
+/* Mobile Polish Additions */
+@media (max-width: 768px) {
+    .navbar { height: 76px !important; padding-left: 20px !important; padding-right: 20px !important; }
+    .navbar-container { height: 100%; display: flex; align-items: center; }
+    .navbar-brand { padding-left: 8px !important; }
+    .navbar-logo img { max-height: 44px !important; width: auto !important; }
+    .nav-cta .button-primary { height: 50px !important; padding: 0 20px !important; font-size: 15px !important; border-radius: 9999px !important; white-space: nowrap !important; display: inline-flex !important; align-items: center !important; justify-content: center !important; }
+    .mobile-menu-toggle { width: 44px !important; height: 44px !important; padding: 13px 8px !important; box-sizing: border-box !important; }
+    #hero-services { padding-top: 116px !important; }
+    .services-hero-inner.silver-card { border-radius: 16px !important; padding: 48px 24px !important; }
+    .editorial-body, .services-hero-body p { font-size: 19px !important; line-height: 1.8 !important; max-width: 36ch !important; margin-left: auto !important; margin-right: auto !important; margin-bottom: 28px !important; }
+    .services-hero-headline, h1, h2, h3, .section-heading { margin-bottom: 28px !important; }
+    .hero-eyebrow { font-size: 15px !important; margin-bottom: 24px !important; letter-spacing: 2px !important; }
+    .container, .hero-content-container, .services-hero-content { padding-left: 24px !important; padding-right: 24px !important; }
+    body { overflow-x: hidden !important; }
+}
